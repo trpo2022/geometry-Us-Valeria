@@ -32,7 +32,7 @@ int main ()
                 s = sqrt(perimetr/2*(perimetr/2-a)*(perimetr/2-b)*(perimetr/2-c));
                 printf ("\nperimetr = %.2f   s = %.2f\n",perimetr, s);
             }
-            if (r<=0)
+            if ((a<=0)||(b<=0)||(c<=0))
             {
                 printf ("\nERROR\n");
             }
