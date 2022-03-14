@@ -10,5 +10,6 @@ int main()
     if (n==1) circle();
     if (n==2) treug();
     if ((n!=1)&&(n!=2)) printf ("ERROR\n");
+    return 0;
 }
  
