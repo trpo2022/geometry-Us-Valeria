@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
-
+#include <libmain/circle.h>
+#include <libmain/treug.h>
 int main()
 {
     int n;
-    float perimetr, s;
     printf ("Figura: \n1.Krug\n2.Treugolnic\n");
     scanf ("%d",&n);
     if (n==1) circle();

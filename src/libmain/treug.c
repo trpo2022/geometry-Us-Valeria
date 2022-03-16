@@ -10,7 +10,7 @@ void treug()
     if ((a>0)&&(b>0)&&(c>0))
     {
         perimetr = (a+b+c);
-        s = sqrt(perimetr/2*(perimetr/2-a)*(perimetr/2-b)*(perimetr/2-c));
+        s = perimetr/2*(perimetr/2-a)*(perimetr/2-b)*(perimetr/2-c);
         printf ("\nperimetr = %d   s = %.2f\n",perimetr, s);
     }
     else
