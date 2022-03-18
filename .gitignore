@@ -1,5 +1,5 @@
-/*.o
-/.main.c.swp
-/main.c~
-/#main.c#
-geometry
+*.o
+*.a
+*.d
+
+
